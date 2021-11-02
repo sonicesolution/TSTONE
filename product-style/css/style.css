@@ -1,0 +1,1027 @@
+ 
+
+a:hover {
+    text-decoration: none;
+}
+
+ 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+  /*  letter-spacing: 1px;*/
+    font-size: 15px;
+   /* line-height: 1.9;*/
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ 
+  
+ 
+
+ 
+ 
+  
+
+/*-- about --*/
+ 
+.gallery  {
+    padding: 5em 0;
+}
+ 
+  
+
+/*-- projects --*/
+
+.gallery-grid1 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+/*--Gallery hover effect--*/
+
+.gallery-grid1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-grid1:nth-child(2),
+.gallery-grid1:nth-child(3) {
+    margin-top: 1.7em;
+}
+
+.gallery-grid1 .p-mask,
+.row .product .vm-product-media-container .p-mask {
+    /*opacity: 0;
+    visibility: hidden;*/
+    background: rgba(25, 24, 24, 0.5) none repeat scroll 0 0;
+    bottom: 42px;
+    position: absolute; 
+    padding: 10px;
+	padding-bottom:5px;
+ 
+    width: 100%;
+    -webkit-transform: translate3d( 0px, 100%, 0px);
+    -moz-transform: translate3d( 0px, 100%, 0px);
+    -ms-transform: translate3d( 0px, 100%, 0px);
+    -o-transform: translate3d( 0px, 100%, 0px);
+    transform: translate3d( 0px, 100%, 0px);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    text-align: center;
+}
+
+.gallery-grid1 .p-mask .p-desc {
+    color: #a3a3a3;
+    position: relative;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 1em;
+}
+
+.gallery-grid1:hover .p-mask,
+.row .product:hover .p-mask {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d( 0px, 0px, 0px);
+    -moz-transform: translate3d( 0px, 0px, 0px);
+    -ms-transform: translate3d( 0px, 0px, 0px);
+    -o-transform: translate3d( 0px, 0px, 0px);
+    transform: translate3d( 0px, 0px, 0px);
+}
+
+.p-mask h4 {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/*-- //projects --*/
+
+ 
+ 
+    
+
+/*--responsive--*/
+
+@media(max-width: 1366px) {
+    .carousel-caption {
+        min-height: 600px;
+        padding-top: 13em;
+    }
+}
+
+@media(max-width: 1280px) {
+    .about_right h3 {
+        font-size: 39px;
+    }
+    .carousel-control {
+        line-height: 29em;
+    }
+}
+
+@media(max-width: 1080px) {
+    .navbar-nav {
+        width: 66%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin: 16px 0;
+    }
+    .carousel-caption {
+        min-height: 550px;
+    }
+    .aboutimg-w3l img {
+        width: 100%;
+    }
+    .about_right p {
+        font-size: 13px;
+        margin: 12px 0 35px;
+    }
+    .about-bottom ul li h5 {
+        font-size: 28px;
+    }
+    .about-bottom p {
+        font-size: 12px;
+    }
+    .popular-grid {
+        width: 31.8%;
+    }
+    .popular-grid h5 {
+        font-size: 25px;
+    }
+    .popular-text {
+        padding: 20px;
+    }
+    .popular-grid p {
+        font-size: 13px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .gallery-grid1 .p-mask,
+    .row .product .vm-product-media-container .p-mask {
+        padding: 15px;
+    }
+    .p-mask h4 {
+        font-size: 25px;
+    }
+    .address-grid,
+    .address-info {
+        padding: 36px;
+    }
+    .w3l-footer.one p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1050px) {}
+
+@media(max-width: 1024px) {
+    .carousel-caption {
+        min-height: 500px;
+        padding-top: 11em;
+    }
+    .carousel-control {
+        line-height: 25em;
+    }
+    .carousel-caption h3 {
+        font-size: 53px;
+    }
+    .carousel-caption h6 {
+        font-size: 18px;
+    }
+    .about_right h3 {
+        font-size: 36px;
+    }
+    .popular-grid p {
+        margin-top: 10px;
+    }
+    .stats_grid_left {
+        float: left;
+        width: 50%;
+        margin-top: 4em;
+    }
+    h3.title {
+        font-size: 46px;
+    }
+}
+
+@media(max-width: 991px) {
+    a.logo h1 {
+        font-size: 36px;
+    }
+    .navbar-nav {
+        width: 75%;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+    }
+    .header-top p {
+        font-size: 13px;
+    }
+    .header-top {
+        padding: 13px 0;
+    }
+    .carousel-caption h3 {
+        font-size: 48px;
+    }
+    .aboutimg-w3l img {
+        width: 78%;
+    }
+    .aboutimg-w3l2 {
+        text-align: right;
+    }
+    .about_right {
+        margin-top: 2em;
+    }
+    .about-bottom ul li h5 {
+        font-size: 30px;
+    }
+    .about-bottom p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .popular-grid {
+        width: 31.3%;
+        float: left;
+    }
+    .popular-grid h5 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .agileits-w3layouts-grid {
+        padding: 0;
+    }
+    .agileits-w3layouts-grid.img {
+        margin-top: 3em;
+        display: inline-block;
+    }
+    .stats_grid_left img {
+        margin: 0 auto;
+    }
+    .stats_grid_left {
+        float: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    .about,
+    .popular-w3,
+    .gallery,
+    .stats,
+    .why-choose-agile,
+    .team,
+    .address,
+    .testimonials {
+        padding: 4em 0;
+    }
+    .gal-sec {
+        padding: 0 .5em;
+    }
+    .gallery-grid1:nth-child(2),
+    .gallery-grid1:nth-child(3) {
+        margin-top: 1em;
+    }
+    .p-mask h4 {
+        font-size: 22px;
+    }
+    .w3_testimonials_grid_left p {
+        margin-top: 12px;
+    }
+    .w3_testimonials_grid_left h6 {
+        font-size: 30px;
+    }
+    .address h4 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .address-info.address-mdl p {
+        font-size: 13px;
+    }
+    .address-grid,
+    .address-info {
+        padding: 30px;
+    }
+    .address-info.address-mdl {
+        margin: 1.5em 0;
+    }
+    .address input[type="text"],
+    .address input[type="email"],
+    .address textarea {
+        font-size: 14px;
+    }
+    .address textarea {
+        min-height: 9.6em;
+    }
+    .address input[type="submit"] {
+        padding: 11px 40px;
+        font-size: 15px;
+    }
+    .w3l-footer h3,
+    .w3l-footer h2 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .w3l-footer.one {
+        padding-right: 0;
+        margin-bottom: 1.5em;
+    }
+    .w3l-footer.two ul li {
+        margin: 13px 0;
+    }
+    .w3l-footer.three ul li p,
+    .w3l-footer.three ul li a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 900px) {
+    .popular-grid {
+        width: 32.2%;
+        float: left;
+        margin: 0 4px;
+    }
+    .popular-grid h5 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 800px) {
+    .carousel-caption {
+        min-height: 450px;
+        padding-top: 10em;
+    }
+    .carousel-caption h3 {
+        font-size: 43px;
+    }
+    .carousel-caption h6 {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    .carousel-control {
+        line-height: 21em;
+    }
+    .about_right h3 {
+        font-size: 34px;
+    }
+    .popular-grid h5 {
+        font-size: 21px;
+    }
+    .popular-text {
+        padding: 10px;
+    }
+    .popular-grid p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    h3.title {
+        font-size: 42px;
+    }
+    .agile-why-text p {
+        font-size: 13px;
+    }
+    .skillbar {
+        width: 92%;
+    }
+    h3.w3ls-title.w3title2 {
+        font-size: 43px;
+        margin-bottom: .3em;
+    }
+    .team-grid h4 {
+        font-size: 23px;
+        margin: 35px 0 16px;
+    }
+    .w3_testimonials_grid_right img {
+        width: 85%;
+    }
+    .address textarea {
+        min-height: 9em;
+    }
+}
+
+@media(max-width: 768px) {
+    .carousel-caption {
+        min-height: 432px;
+        padding-top: 9.5em;
+    }
+    .carousel-control {
+        line-height: 20em;
+    }
+    .address-left.wow.agile.fadeInLeft.animated {
+        padding: 0 .5em;
+    }
+}
+
+@media(max-width: 767px) {
+    a.logo h1 {
+        text-align: center;
+    }
+    .nav>li {
+        text-align: center;
+    }
+    div#bs-example-navbar-collapse-1 {
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+    }
+    .navbar-toggle {
+        position: absolute;
+        right: 0;
+    }
+    .navbar-nav {
+        margin: 0;
+        width: 100%;
+        float: none;
+        background: rgba(0, 0, 0, 0.73);
+        padding: 0;
+    }
+    .navbar-nav>li {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .navbar-nav>li>a {
+        margin: 1em 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+        color: #fff;
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-toggle {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #faad81;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 7px 20px;
+    }
+    .navbar-default a.navbar-brand h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    .navbar-default .navbar-brand label {
+        letter-spacing: 3px;
+    }
+    .header {
+        padding: 5px 0;
+    }
+    .header-top {
+        padding: 6px 0;
+    }
+    .bottom_header_left {
+        margin: .45em 0 0;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #faad81;
+    }
+    .address-grid,
+    .address-info {
+        padding: 28px;
+    }
+}
+
+@media(max-width: 736px) {
+    .header {
+        padding: 10px 0;
+    }
+    a.logo h1 {
+        font-size: 34px;
+    }
+    .header-top p {
+        font-size: 12px;
+    }
+    .header-top {
+        padding: 10px 0;
+    }
+    .carousel-caption h3 {
+        font-size: 41px;
+    }
+    .carousel-caption h6 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .aboutimg-w3l img {
+        width: 74%;
+    }
+    .popular-grid {
+        width: 32%;
+    }
+    .popular-grid h5 {
+        font-size: 20px;
+    }
+    .w3_testimonials_grid_left p {
+        font-size: 13px;
+    }
+    .address h4 {
+        font-size: 25px;
+    }
+    .w3ls-footer-grids {
+        padding: 40px 0;
+    }
+}
+
+@media(max-width: 667px) {
+    .carousel-caption {
+        padding-top: 9em;
+    }
+    .about_right h3 {
+        font-size: 30px;
+    }
+    .popular-grid {
+        width: 60%;
+        margin: 0 auto;
+        float: none;
+    }
+    .popular-grid h5 {
+        font-size: 28px;
+    }
+    .popular-grid p {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .popular-text {
+        padding: 25px 30px;
+    }
+    .popular-grid:nth-child(2) {
+        margin-top: 2em;
+    }
+    .address h4 {
+        font-size: 23px;
+        margin-bottom: 6px;
+    }
+    .address-grid,
+    .address-info {
+        padding: 26px;
+    }
+    .address input[type="submit"] {
+        font-size: 14px;
+    }
+    .address textarea {
+        min-height: 7.7em;
+    }
+    p {
+        font-size: 13px;
+    }
+    .address textarea {
+        min-height: 7.3em;
+    }
+    .about,
+    .popular-w3,
+    .gallery,
+    .stats,
+    .why-choose-agile,
+    .team,
+    .address,
+    .testimonials {
+        padding: 3em 0;
+    }
+}
+
+@media(max-width: 640px) {
+    .w3_testimonials_grid_left p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 600px) {
+    .carousel-caption h3 {
+        font-size: 38px;
+    }
+    .carousel-caption h6 {
+        font-size: 15px;
+    }
+    .carousel-caption {
+        padding-top: 8em;
+        min-height: 380px;
+    }
+    .carousel-control {
+        line-height: 18em;
+    }
+    .about_right h3 {
+        font-size: 28px;
+    }
+    .popular-grid h5 {
+        font-size: 26px;
+    }
+    .agile-why-text h4 {
+        font-size: 24px;
+        margin-bottom: 2px;
+    }
+    .agile-why-text p {
+        font-size: 12px;
+    }
+    .agile-why-text {
+        padding: 0 .5em;
+    }
+    .wthree_agile_us:nth-child(2) {
+        margin: 2em 0;
+    }
+    h3.w3ls-title.w3title2 {
+        font-size: 38px;
+    }
+    h3.title {
+        font-size: 38px;
+        margin-bottom: .8em;
+    }
+    .w3_testimonials_grid_right img {
+        width: 100%;
+    }
+    .team-grid h4 {
+        font-size: 21px;
+    }
+    .address-right {
+        width: 100%;
+    }
+    .address h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .address-left.wow.agile.fadeInLeft.animated {
+        padding: 0 1em;
+        width: 100%;
+        margin-top: 2em;
+    }
+    .address textarea {
+        min-height: 10em;
+    }
+    .w3l-footer {
+        padding: 0 .5em;
+    }
+    .w3l-footer h3,
+    .w3l-footer h2 {
+        font-size: 22px;
+    }
+    p.footer-gd {
+        font-size: 13px;
+    }
+    .copy-right-grids {
+        padding: 15px 0;
+    }
+}
+
+@media(max-width: 568px) {
+    .aboutimg-w3l img {
+        width: 80%;
+    }
+    .popular-grid h5 {
+        font-size: 25px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 480px) {
+    .carousel-caption {
+        min-height: 360px;
+    }
+    .carousel-caption h3 {
+        font-size: 32px;
+    }
+    .carousel-caption h6 {
+        font-size: 14px;
+    }
+    .carousel-caption h6 {
+        font-size: 14px;
+    }
+    .about_right p {
+        font-size: 12px;
+    }
+    .about-bottom ul li h5 {
+        font-size: 26px;
+    }
+    .about-bottom p {
+        font-size: 10px;
+    }
+    .popular-grid {
+        width: 80%;
+    }
+    .popular-text {
+        padding: 22px 30px;
+    }
+    .agileits-w3layouts-grid {
+        padding: 0 1em;
+        width: 100%;
+    }
+    .wthree_agile_us:nth-child(2),
+    .agileits-w3layouts-grid:nth-child(2) {
+        margin: 1.5em 0;
+    }
+    .agileits-w3layouts-grid.img {
+        margin-top: 1em;
+    }
+    .p-mask h4 {
+        font-size: 16px;
+    }
+    .gallery-grid1 .p-mask,
+    .row .product .vm-product-media-container .p-mask {
+        padding: 10px;
+    }
+    .team-grid {
+        width: 100%;
+    }
+    .team-grid:nth-child(2) {
+        margin: 2em 0;
+    }
+    .team-grid h4 {
+        font-size: 25px;
+        margin: 40px 0 18px;
+    }
+    .w3l-footer {
+        width: 100%;
+    }
+    .w3l-footer.three {
+        margin: 1em 0;
+    }
+}
+
+@media(max-width: 440px) {
+    .carousel-caption {
+        min-height: 340px;
+    }
+    .carousel-caption h3 {
+        font-size: 30px;
+    }
+    .carousel-caption h6 {
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+    .carousel-control {
+        line-height: 16em;
+    }
+    .aboutimg-w3l img {
+        width: 100%;
+    }
+    .about-bottom p {
+        font-size: 9px;
+    }
+    .gal-sec {
+        padding: 0 1em;
+        width: 100%;
+		padding-top:15px;    /*sho*/
+    }
+    .gal-sec:nth-child(2) {
+        margin: 1em 0;
+	 
+    }
+    .p-mask h4 {
+        font-size: 24px;
+    }
+    .gallery-grid1 .p-mask,
+    .row .product .vm-product-media-container .p-mask {
+        padding: 20px;
+    }
+    .w3_testimonials_grid_left {
+        width: 100%;
+    }
+    .agile-why-text h4 {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+    .w3_testimonials_grid_right {
+        margin-top: 1em;
+        width: 100%;
+    }
+    .w3_testimonials_grid_right img {
+        width: 40%;
+    }
+}
+
+@media(max-width: 414px) {
+    .carousel-caption {
+        min-height: 300px;
+        padding-top: 7em;
+    }
+    .carousel-control {
+        line-height: 14em;
+    }
+    .about-bottom ul li {
+        width: 100%;
+    }
+    .about-bottom ul li:nth-child(2) {
+        margin: 1.5em 0;
+    }
+    .about-bottom ul li:nth-child(2) {
+        margin: 1.5em 0;
+    }
+    .popular-grid p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .popular-text {
+        padding: 20px;
+    }
+    p.footer-gd {
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width: 384px) {
+    a.logo h1 {
+        font-size: 30px;
+    }
+    a.logo span {
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+    .header-top p {
+        font-size: 11px;
+    }
+    .header-top p {
+        font-size: 11px;
+    }
+    .carousel-caption h6 {
+        font-size: 12px;
+    }
+    .carousel-caption {
+        min-height: 286px;
+        padding-top: 6em;
+    }
+    .about,
+    .popular-w3,
+    .gallery,
+    .stats,
+    .why-choose-agile,
+    .team,
+    .address,
+    .testimonials {
+        padding: 2.5em 0;
+    }
+    .about_right h3 {
+        font-size: 25px;
+    }
+    .about_right p {
+        font-size: 11px;
+        margin: 6px 0 28px;
+    }
+    .about-bottom p {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .popular-grid h5 {
+        font-size: 23px;
+    }
+    h3.title {
+        font-size: 32px;
+    }
+    .agile-why-text h4 {
+        font-size: 21px;
+        margin-bottom: 4px;
+    }
+    .wthree_agile_us:nth-child(2),
+    .agileits-w3layouts-grid:nth-child(2) {
+        margin: 2em 0;
+    }
+    h3.w3ls-title.w3title2 {
+        font-size: 32px;
+    }
+    .skillbar {
+        width: 86%;
+    }
+    .skillbar-title {
+        width: 90px;
+        font-size: 14px;
+    }
+    .w3ls-footer-grids {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width: 375px) {
+    .navbar-toggle {
+        padding: 8px 9px;
+    }
+    .carousel-caption h3 {
+        font-size: 27px;
+    }
+    .popular-grid {
+        width: 90%;
+    }
+    .popular-grid h5 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 320px) {
+    a.logo h1 {
+        font-size: 28px;
+    }
+    a.logo span {
+        font-size: 8px;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 5px 10px;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 5px 10px;
+    }
+    .navbar-toggle {
+        padding: 7px 8px;
+    }
+    .carousel-caption {
+        min-height: 238px;
+        padding-top: 5.5em;
+    }
+    .carousel-caption h6 {
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+    .carousel-caption h3 {
+        font-size: 23px;
+    }
+    .carousel-control {
+        line-height: 11em;
+    }
+    .aboutimg-w3l {
+        padding: 0 3px;
+    }
+    .about,
+    .popular-w3,
+    .gallery,
+    .stats,
+    .why-choose-agile,
+    .team,
+    .address,
+    .testimonials {
+        padding: 1.5em 0;
+    }
+    .about_right h3 {
+        font-size: 23px;
+    }
+    .about_right {
+        margin-top: 1em;
+    }
+    .popular-grid {
+        width: 100%;
+    }
+    .popular-grid h5 {
+        font-size: 23px;
+    }
+    h3.w3ls-title.w3title2 {
+        font-size: 30px;
+    }
+    .p-mask h4 {
+        font-size: 22px;
+    }
+    .gallery-grid1 .p-mask,
+    .row .product .vm-product-media-container .p-mask {
+        padding: 15px;
+    }
+    .team-grid h4 {
+        font-size: 23px;
+        margin: 35px 0 16px;
+    }
+    .team-grid:nth-child(2) {
+        margin: 1em 0;
+    }
+    .w3_testimonials_grid_left h6 {
+        font-size: 26px;
+    }
+    .w3_testimonials_grid_left p {
+        font-size: 11px;
+    }
+    .address h4 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .address input[type="text"],
+    .address input[type="email"],
+    .address textarea {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .agileinfo_footer_grid ul li {
+        font-size: 13px;
+    }
+    .w3ls-footer-grids {
+        padding: 25px 0 20px;
+    }
+}
+ 
