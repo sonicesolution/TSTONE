@@ -3432,12 +3432,12 @@ class SMTP {
 	header("Content-Type: text/plain");
 	header("X-Node: $hostname");
 	 
-	$from =    'pnabera301@gmail.com';
-	$toemail = 'pnabera301@gmail.com';
-	$subject = 'Contact Us Mail From Website - www.t24.co.in';
+	$from =    'trade@tstone.co.in';
+	$toemail = 'trade@tstone.co.in';
+	$subject = 'Contact Us Mail From Website - www.tstone.co.in';
 	  
 	
-	$txtFromName = 'www.t24.co.in';
+	$txtFromName = 'www.tstone.co.in';
 	
 	$txtName     			= $_POST['txtName'];
 	$txtEmail 				= $_POST['txtEmail'];
