@@ -461,7 +461,7 @@ input:-webkit-autofill:focus {
 }
 .tparrows {
     cursor: pointer;
-    background: rgba(255, 255, 255,.95) !important;
+   /* background: rgba(255, 255, 255,.95) !important;*/
     width: 50px !important;
     height: 110px !important;
     position: absolute;
@@ -486,7 +486,7 @@ input:-webkit-autofill:focus {
     text-align: center;
 }
 .tparrows:hover{
-    background: rgba(255, 197, 103, .99) !important;    
+    /*background: rgba(255, 197, 103, .99) !important;   */ 
 }
 
 
