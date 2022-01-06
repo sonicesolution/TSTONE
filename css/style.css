@@ -9476,5 +9476,16 @@ box-shadow: 0px 1px 5px 3px rgba(242,242,242,1);
     display: none;
 }
 
-
+.product-section {
+    font-family: 'Lora', serif;
+  
+    
+    font-style: italic;
+    line-height: 1.5em;
+	
+	 font-size:18px;
+    color: #848484;
+   
+   
+}
 
