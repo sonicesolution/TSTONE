@@ -3432,8 +3432,8 @@ class SMTP {
 	header("Content-Type: text/plain");
 	header("X-Node: $hostname");
 	 
-	$from =    'trade@tstone.co.in';
-	$toemail = 'trade@tstone.co.in';
+	$from =    'slatestone24@gmail.com';
+	$toemail = 'slatestone24@gmail.com';
 	$subject = 'Home Page Mail From Website - www.tstone.co.in';
 	  
 	
